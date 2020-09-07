@@ -14,6 +14,9 @@ URLS = {
     "ebay": "https://www.ebay.com/sch/i.html?_nkw=SONY+A7iii&LH_BIN=1&_sop=15&_udlo=1000&_udhi=1700"
 }
 
+EMAIL = "your_email@mail.com"
+PASSWORD = "your_password"
+
 
 def _bestbuy_scraper(url):
     response = requests.get(url, headers=HEADERS)
