@@ -9,7 +9,9 @@ I utilize a cron job to schedule run the the script periodically
 As it currently stands the code is limited to a specific camera and a few retail sites and it is barebones. But I hope to implement a feature to simply input any camera model/name and desired price and begin tracking.
 
 ### LIBRARIES USED
-
+- smtplib
+- Beautiful Soup (BS4)
+- time
 
 
 
